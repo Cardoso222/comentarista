@@ -1,5 +1,35 @@
 {% extends 'layouts/base.html' %}
 
 {% block content %}
-  <h1>{{ message }}</h>
+  <div class="row">
+    <div class="score col-lg-12 text-center mt-5">
+        <h1>PLACAR</h1>
+        <img class="team-flag" src="assets/imgs/atletico-pr.svg" alt="">
+        <span class="font-150">2 <span class="font-50">x</span> 1</span>
+        <img class="team-flag" src="assets/imgs/cruzeiro.svg" alt="">
+
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="comments col-lg-12 mt-5">
+      <h3 class="mb-5">Comentarios:</h3>
+
+      <div class="comment">
+        <img class="comment-image" src="/assets/imgs/anon.jpg" alt="">
+        <span class="comment-name"><b>Paulo Henrique</b></span><br><br>
+        <span class="comment-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum soluta corrupti numquam aperiam possimus quos quis, quas quibusdam a facere adipisci explicabo. Odit cupiditate aliquam animi excepturi, maxime ea explicabo?</span>
+        <hr>
+      </div>
+
+      <div class="comment">
+        <img class="comment-image" src="/assets/imgs/anon.jpg" alt="">
+        <span class="comment-name"><b>Paulo Henrique</b></span><br><br>
+        <span class="comment-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum soluta corrupti numquam aperiam possimus quos quis, quas quibusdam a facere adipisci explicabo. Odit cupiditate aliquam animi excepturi, maxime ea explicabo?</span>
+      <hr>
+      </div>
+  
+
+    </div>
+  </div>
 {% endblock %}

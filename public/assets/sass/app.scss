@@ -1,4 +1,51 @@
 
+@import 'variables';
+
 body {
-  background-color: red;
+  background-color: $silver;
+}
+
+.score {
+  background-color: $white;
+  padding: 40px;
+  border-radius: 10px;
+
+  .font-150{
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  .team-name {
+    margin-top: -82px;
+  }
+}
+
+.team-flag {
+  width: 90px;
+  margin-top: -82px;
+}
+
+.comments {
+  background-color: $white;
+  padding: 25px;
+}
+
+.comment {
+  .comment-image {
+    width: 60px;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+}
+
+.comments {
+  border-radius: 10px;
+}
+
+.font-150 {
+  font-size: 150px;
+}
+
+.font-50 {
+  font-size: 50px;
 }
